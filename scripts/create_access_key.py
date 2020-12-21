@@ -5,7 +5,7 @@ import boto3
 from botocore.client import BaseClient
 from prompt_toolkit.shortcuts import confirm
 
-SAM_DEPLOY_USER = "sam-deploy-user"
+SAM_DEPLOY_USER = "api-gw-lambda-load-test-sam-deploy-user"
 SSM_DEPLOY_USER = "ssm-deploy-user"
 
 
