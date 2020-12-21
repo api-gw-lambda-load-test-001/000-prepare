@@ -9,6 +9,8 @@ Resources:
       UserName: api-gw-lambda-load-test-sam-deploy-user
       ManagedPolicyArns:
         - arn:aws:iam::aws:policy/AmazonS3FullAccess
+        - arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess
+        - arn:aws:iam::aws:policy/AWSCloudFormationReadOnlyAccess
       Policies:
         - PolicyName: CloudFormationDeployPolicy
           PolicyDocument:
